@@ -8,7 +8,7 @@ const ProfileCard = () => {
         <img src={pic2} alt="" />
       </div>
       <div className="profiles">
-        <p>@arnoldy</p>
+        <p className="username">@arnoldy</p>
         <h2>Arnoldy Chofe</h2>
         <div className="profileButton">
           <button>
@@ -22,6 +22,10 @@ const ProfileCard = () => {
             <i className="fa fa-ellipsis"></i>More
           </button>
         </div>
+        <hr />
+        <p className="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nihil repudiandae quibusdam quas blanditiis error porro impedit quo quis itaque.
+        </p>
       </div>
     </div>
   );

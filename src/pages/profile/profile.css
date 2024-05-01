@@ -1,8 +1,8 @@
 .profileDetails {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 30px;
-  flex-direction: column;
   margin: 40px 20px;
 }
 .profileCard {
@@ -33,7 +33,7 @@ h2,
 span {
   margin: 10px 0;
 }
-.profileCard .profiles p {
+.profileCard .profiles .username {
   font-size: 20px;
   color: rgb(184, 183, 183);
 }
@@ -48,11 +48,14 @@ span {
 .profileCard .profiles button {
   margin: 5px 10px;
   padding: 12px 10px;
-  font-size: 17px;
+  font-size: 16px;
   border-radius: 10px;
   background-color: transparent;
   border: 1px solid rgb(10, 88, 189);
 }
 .profileCard .profiles button i {
   margin-right: 10px;
+}
+.profileCard .profiles .text{
+  width: 100%;
 }
