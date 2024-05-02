@@ -1,12 +1,12 @@
 .profileDetails {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 30px;
   margin: 40px 20px;
 }
 .profileCard {
-  flex-basis: 40%;
+  flex-basis: 30%;
   border-radius: 10px;
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px;
@@ -37,10 +37,6 @@ span {
   font-size: 20px;
   color: rgb(184, 183, 183);
 }
-.profileCard .profiles span {
-    margin: 10px;
-    padding: 10px ;
-}
 .profileCard .profiles h2 {
   font-weight: 500;
   font-size: 25px;
@@ -56,6 +52,32 @@ span {
 .profileCard .profiles button i {
   margin-right: 10px;
 }
-.profileCard .profiles .text{
-  width: 100%;
+
+.profileCard .profiles .text {
+  width: 80%;
+  font-size: 14px;
+  text-align: center;
+  margin: 10px auto;
+  font-style: italic;
+  opacity: 0.7;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+/* For info section */
+.info {
+  margin: 10px 30px;
+}
+.info .info-card {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  margin: 5px 0px;
+}
+.info .info-card p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: darkgrey;
 }

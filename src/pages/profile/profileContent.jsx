@@ -5,8 +5,8 @@ const ProfileContent = () => {
   return (
     <div className="container">
       <div className="profileDetails">
-        <ProfileCard/>
-        <ProfileInfo/>
+        <ProfileCard />
+        <ProfileInfo />
       </div>
     </div>
   );

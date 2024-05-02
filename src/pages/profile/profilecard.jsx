@@ -1,5 +1,6 @@
 import pic1 from "../../assets/image1.jpeg";
 import pic2 from "../../assets/bg_1.jpg";
+import ProfileInfo from "./info";
 const ProfileCard = () => {
   return (
     <div className="profileCard">
@@ -22,12 +23,13 @@ const ProfileCard = () => {
             <i className="fa fa-ellipsis"></i>More
           </button>
         </div>
-        <hr />
         <p className="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nihil repudiandae quibusdam quas blanditiis error porro impedit quo quis itaque.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Necessitatibus dolorum, deserunt aliquam aliquid at inventore!
         </p>
       </div>
     </div>
+    
   );
 };
 

@@ -31,12 +31,6 @@ const Content = (props) => {
   ];
   return (
     <div className="container">
-      <div className="welcome">
-        <h1>Welcome to Project Management Dashboard</h1>
-        <p>
-          <i>A dashboard that houses all your project works for you...</i>
-        </p>
-      </div>
       <div className="most-recent-view">
         <div className="most-recent-view-header">
           <h4>RECENT VIEW</h4>
