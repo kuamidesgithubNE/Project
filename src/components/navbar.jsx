@@ -4,10 +4,10 @@ const NavBar = () => {
     <div>
       <div className="navbar">
         <Link to="/">
-          <i className="fa fa-home" title="Categories"></i>
+          <i className="fa fa-home" title="Home"></i>
         </Link>
         <Link to="/projects">
-          <i className="fa fa-layer-group" title="Categories"></i>
+          <i className="fa fa-search" title="Search"></i>
         </Link>
         <Link to="/addproject">
           <i className="fa fa-add middle-icon" title="Add"></i>

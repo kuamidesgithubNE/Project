@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "image": "pic1.jpg",
+      "title": "Car tracking",
+      "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
+    },
+    {
+      "id": "2",
+      "image": "pic2.jpg",
+      "title": "Farm Produce",
+      "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
+    },
+    {
+      "id": "3",
+      "image": "pic3.jpg",
+      "title": "E-poultry",
+      "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
+    },
+    {
+      "id": "4",
+      "image": "pic1.jpg",
+      "title": "Locator",
+      "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
+    }
+  ]
+}

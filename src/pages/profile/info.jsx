@@ -2,28 +2,29 @@ const ProfileInfo = () => {
   return (
     <div className="profileCard">
       <div className="info">
+        <h2 style={{ fontWeight: "600", fontFamily: "Rubik" }}>Information</h2>
         <div className="info-card">
-          <p>
+          <span>
             <i className="fa fa-globe"></i> Website
-          </p>
+          </span>
           <p>www.kuamides.com</p>
         </div>
         <div className="info-card">
-          <p>
+          <span>
             <i className="fa-regular fa-envelope"></i> Email
-          </p>
-          <p>www.kuamides.com</p>
+          </span>
+          <p>kuamides@gmail.com</p>
         </div>
         <div className="info-card">
-          <p>
-            <i className="fa fa-globe"></i> Website
-          </p>
-          <p>www.kuamides.com</p>
+          <span>
+            <i className="fa fa-phone"></i> Phone
+          </span>
+          <p>+233 54 030 2327</p>
         </div>
         <div className="info-card">
-          <p>
-            <i className="fa fa-globe"></i> Website
-          </p>
+          <span>
+            <i class="fa-regular fa-calendar-days"></i> Website
+          </span>
           <p>www.kuamides.com</p>
         </div>
       </div>

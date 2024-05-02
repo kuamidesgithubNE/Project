@@ -41,6 +41,9 @@ span {
   font-weight: 500;
   font-size: 25px;
 }
+.profileCard .profiles .button {
+  margin: 10px 0px;
+}
 .profileCard .profiles button {
   margin: 5px 10px;
   padding: 12px 10px;
@@ -54,30 +57,33 @@ span {
 }
 
 .profileCard .profiles .text {
-  width: 80%;
+  width: 90%;
   font-size: 14px;
   text-align: center;
   margin: 10px auto;
-  font-style: italic;
   opacity: 0.7;
-  padding-bottom: 20px;
-  border-bottom: 1px solid lightgray;
+  padding-top: 15px;
+  border-top: 1px solid lightgray;
 }
 
 /* For info section */
 .info {
-  margin: 10px 30px;
+  margin: 5px;
 }
 .info .info-card {
   flex-basis: 30%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 7px;
-  margin: 5px 0px;
+  padding: 7px 0px;
+}
+.info .info-card span {
+  opacity: 0.8;
+}
+.info .info-card span i {
+  margin-right: 5px;
+  font-size: 18px;
 }
 .info .info-card p {
   font-size: 16px;
-  letter-spacing: 1px;
-  color: darkgrey;
 }
