@@ -206,4 +206,34 @@ h5 {
   justify-content: center;
   position: relative;
   margin: 30px auto;
+  display: flex;
+  border-radius: 5px;
+}
+.modal-content .form {
+  flex-basis: 85%;
+  align-self: first baseline;
+  margin: 30px;
+}
+.modal-content .form h2 {
+  text-align: center;
+}
+.file-upload-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.custom-file-upload {
+  background-color: #e8e8e8;
+  border: 2px dashed darkgray;
+  border-radius: 5px;
+  cursor: pointer;
+  flex-grow: 1;
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 18px;
+  display: block;
+}
+.custom-file-upload input[type="file"] {
+  display: none;
 }
