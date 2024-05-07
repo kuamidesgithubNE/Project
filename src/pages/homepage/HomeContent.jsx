@@ -43,7 +43,7 @@ const Content = (props) => {
 
       <div className="most-recent-view">
         <div className="most-recent-view-header">
-          <h4>RECENT VIEW</h4>
+          <h4>RECOMMENDED</h4>
           <a href="">View all</a>
         </div>
         <div className="card-holder">

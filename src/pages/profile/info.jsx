@@ -23,9 +23,9 @@ const ProfileInfo = () => {
         </div>
         <div className="info-card">
           <span>
-            <i class="fa-regular fa-calendar-days"></i> Website
+            <i class="fa-regular fa-calendar-days"></i> Joined
           </span>
-          <p>www.kuamides.com</p>
+          <p>02/05/24</p>
         </div>
       </div>
     </div>

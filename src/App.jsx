@@ -4,7 +4,7 @@ import "./App.css";
 import Home from "./pages/homepage/home";
 import Projects from "./pages/projects/projects";
 import Profile from "./pages/profile/profile";
-import AddProject from "./pages/addproject/addproject";
+import Modal from "./pages/addproject/modal";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path="/" index element={<Home />} />
           <Route path="projects" element={<Projects />} />
-          <Route path="addproject" element={<AddProject />} />
+          <Route path="modal" element={<Modal />} />
           <Route path="profile" element={<Profile />} />
         </Routes>
       </BrowserRouter>
