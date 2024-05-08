@@ -15,8 +15,9 @@ const Modal = () => {
   return (
     <div className="modal">
       <div className="modal-content">
+        <i className="fa fa-times close"></i>
         <div className="form">
-          <h2>Upload Files </h2>
+          <h3>Upload files </h3>
           <div className="file-upload-container">
             {/* File input with custom placeholder */}
             <label
@@ -30,9 +31,14 @@ const Modal = () => {
                 accept=".pdf,.docx"
                 onChange={handleFileUpload}
               />
-              {selectedFile ? selectedFile.name : "Drop Item Here!"}
-              <p>or</p>
-              
+              {selectedFile ? selectedFile.name : "Drop your files here!"}
+            </label>
+          </div>
+          <div className="username">
+            <label htmlFor="">
+              {" "}
+              Project name
+              <input type="text" placeholder="" />
             </label>
           </div>
         </div>

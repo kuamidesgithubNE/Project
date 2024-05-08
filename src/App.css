@@ -200,7 +200,7 @@ h5 {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px;
 }
 .modal-content {
-  flex-basis: 55%;
+  flex-basis: 46%;
   background-color: #fff;
   align-items: center;
   justify-content: center;
@@ -208,30 +208,39 @@ h5 {
   margin: 30px auto;
   display: flex;
   border-radius: 5px;
+  font-size: 18px;
+}
+.modal-content .close {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  cursor: pointer;
 }
 .modal-content .form {
-  flex-basis: 85%;
+  flex-basis: 80%;
   align-self: first baseline;
   margin: 30px;
+  font-size: 14px;
 }
-.modal-content .form h2 {
-  text-align: center;
+.modal-content .form h3 {
+  font-size: 22px;
+  margin: 20px auto;
 }
 .file-upload-container {
   display: flex;
   align-items: center;
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 .custom-file-upload {
   background-color: #e8e8e8;
-  border: 2px dashed darkgray;
+  border: 2px dashed rgb(10, 88, 189);
   border-radius: 5px;
   cursor: pointer;
   flex-grow: 1;
   text-align: center;
   padding: 2rem 0;
-  font-size: 18px;
+  font-size: 17px;
   display: block;
 }
 .custom-file-upload input[type="file"] {
