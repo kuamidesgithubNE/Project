@@ -198,6 +198,7 @@ h5 {
   background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px;
+  z-index: 100;
 }
 .modal-content {
   flex-basis: 46%;
@@ -209,6 +210,7 @@ h5 {
   display: flex;
   border-radius: 5px;
   font-size: 18px;
+  display: none;
 }
 .modal-content .close {
   position: absolute;
@@ -217,10 +219,10 @@ h5 {
   cursor: pointer;
 }
 .modal-content .form {
-  flex-basis: 80%;
+  flex-basis: 75%;
   align-self: first baseline;
   margin: 30px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .modal-content .form h3 {
   font-size: 22px;
@@ -245,4 +247,47 @@ h5 {
 }
 .custom-file-upload input[type="file"] {
   display: none;
+}
+.form input,
+textarea,
+select {
+  outline-color: rgb(10, 88, 189);
+}
+.form input:focus,
+.form textarea:focus,
+.form select:focus {
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.form div {
+  margin: 15px 0px;
+}
+.form div label {
+  display: block;
+  margin: 5px 0px;
+  font-weight: 450;
+  font-size: 15px;
+  opacity: 0.9;
+}
+.form div input[type="text"] {
+  width: 95%;
+  padding: 9px 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+.form div textarea {
+  padding: 9px 10px;
+}
+.form div select {
+  padding: 9px 10px;
+  width: 50%;
+  font-weight: 500;
+  border-radius: 3px;
+}
+.form div button {
+  padding: 8px 40px;
+  margin-right: 10px;
+  font-size: 17px;
+  border-radius: 3px;
+  border: transparent;
+  cursor: pointer;
 }

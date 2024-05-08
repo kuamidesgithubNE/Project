@@ -1,4 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
+import Modal from "../pages/addproject/modal";
 const NavBar = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const NavBar = () => {
         </Link>
       </div>
       <Outlet />
+      <Modal/>
     </div>
   );
 };

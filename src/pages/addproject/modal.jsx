@@ -1,11 +1,18 @@
 import { useState } from "react";
-const Modal = () => {
+
+const Modal = ({ handleClose, show }) => {
   const [selectedFile, setSelectedFile] = useState(null);
 
+  // show & hide modal handler
+  const showHideClassName =  "modal display-none";
+
+  // for the file selected by clicking
   const handleFileUpload = (event) => {
     const file = event.target.files[0];
     setSelectedFile(file);
   };
+
+  // for the file selected by drag and dropping
   const handleDrop = (event) => {
     event.preventDefault();
     const file = event.dataTransfer.files[0];
@@ -13,10 +20,10 @@ const Modal = () => {
   };
 
   return (
-    <div className="modal">
+    <div className={showHideClassName}>
       <div className="modal-content">
-        <i className="fa fa-times close"></i>
-        <div className="form">
+        <i className="fa fa-times close" onClick={handleClose}></i>
+        <form className="form">
           <h3>Upload files </h3>
           <div className="file-upload-container">
             {/* File input with custom placeholder */}
@@ -34,14 +41,39 @@ const Modal = () => {
               {selectedFile ? selectedFile.name : "Drop your files here!"}
             </label>
           </div>
-          <div className="username">
-            <label htmlFor="">
-              {" "}
-              Project name
-              <input type="text" placeholder="" />
-            </label>
+          <div>
+            <label htmlFor="">Project Name</label>
+            <input type="text" />
           </div>
-        </div>
+          <div>
+            <label htmlFor="">Any link relating to the project?</label>
+            <input type="text" />
+          </div>
+          <div>
+            <div>
+              <label htmlFor="">
+                Which category does the project belong to?
+              </label>
+              <select name="" id="">
+                <option value="">Category</option>
+                <option value="">Computer Science</option>
+                <option value="">Mechanical Engineering</option>
+                <option value="">Electrical Engineering</option>
+                <option value="">Civil Engineering</option>
+                <option value="">Business</option>
+                <option value="">Agricultural Engineering</option>
+              </select>
+            </div>
+            <label htmlFor="">Description</label>
+            <textarea name="" id="" cols="60" rows="5"></textarea>
+          </div>
+          <div className="button">
+            <button style={{ color: "#fff", background: "rgb(10, 88, 189)" }}>
+              Upload
+            </button>
+            <button>Cancel</button>
+          </div>
+        </form>
       </div>
     </div>
   );
