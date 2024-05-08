@@ -24,7 +24,7 @@ const NavBar = () => {
         </Link>
       </div>
       <Outlet />
-      {openModal && <Modal closeModal={setOpenModal}/>}
+      {openModal && <Modal closeModal={setOpenModal} />}
     </div>
   );
 };

@@ -62,7 +62,7 @@ const Modal = ({ closeModal }) => {
               </select>
             </div>
             <label htmlFor="">Description</label>
-            <textarea name="" id="" cols="60" rows="5"></textarea>
+            <textarea name="" id="" cols="60" rows="4"></textarea>
           </div>
           <div className="button">
             <button style={{ color: "#fff", background: "rgb(10, 88, 189)" }}>

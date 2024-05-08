@@ -92,7 +92,7 @@ h5 {
 }
 .navbar i {
   padding: 12px 15px;
-  margin: 5px 10px;
+  margin: 5px 15px;
   border-radius: 50%;
   color: #fff;
   text-align: center;
@@ -201,7 +201,8 @@ h5 {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px;
   z-index: 100;
   animation-name: openModal;
-  animation-duration: 0.9s;
+  animation-duration: 0.5s;
+  overflow: hidden;
 }
 .modal-content {
   flex-basis: 42%;
@@ -245,8 +246,8 @@ h5 {
   margin: auto;
 }
 .custom-file-upload {
-  background-color: #e8e8e8;
-  border: 2px dashed rgb(10, 88, 189);
+  background-color: #cce5ff;
+  border: 2px dashed darkgrey;
   border-radius: 5px;
   cursor: pointer;
   flex-grow: 1;
@@ -300,4 +301,36 @@ select {
   border-radius: 3px;
   border: transparent;
   cursor: pointer;
+}
+
+
+
+/* For small size screen  */
+@media (max-width: 600px) {
+  .navbar{
+    bottom: 0%;
+    width: 100%;
+    left: 0%;
+    border-radius: 0px;
+
+  }
+  .navbar i{
+    margin: 5px 25px;
+  }
+  .card-holder {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .modal{
+    flex-direction: column;
+  }
+  .modal-content{
+    width: 90%;
+  }
+  .modal-content form{
+    width: 90%;
+  }
+  .form div textarea {
+    padding: 9px 0px;
+  }
 }
