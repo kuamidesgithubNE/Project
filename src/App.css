@@ -307,6 +307,9 @@ select {
 
 /* For small size screen  */
 @media (max-width: 600px) {
+  .header .search{
+    display: none;
+  }
   .navbar{
     bottom: 0%;
     width: 100%;
