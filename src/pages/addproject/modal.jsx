@@ -1,10 +1,7 @@
 import { useState } from "react";
 
-const Modal = ({ handleClose, show }) => {
+const Modal = ({ closeModal }) => {
   const [selectedFile, setSelectedFile] = useState(null);
-
-  // show & hide modal handler
-  const showHideClassName =  "modal display-none";
 
   // for the file selected by clicking
   const handleFileUpload = (event) => {
@@ -20,9 +17,9 @@ const Modal = ({ handleClose, show }) => {
   };
 
   return (
-    <div className={showHideClassName}>
+    <div className="modal">
       <div className="modal-content">
-        <i className="fa fa-times close" onClick={handleClose}></i>
+        <i className="fa fa-times close" onClick={() => closeModal(false)}></i>
         <form className="form">
           <h3>Upload files </h3>
           <div className="file-upload-container">
@@ -71,7 +68,7 @@ const Modal = ({ handleClose, show }) => {
             <button style={{ color: "#fff", background: "rgb(10, 88, 189)" }}>
               Upload
             </button>
-            <button>Cancel</button>
+            <button onClick={() => closeModal(false)}>Cancel</button>
           </div>
         </form>
       </div>
