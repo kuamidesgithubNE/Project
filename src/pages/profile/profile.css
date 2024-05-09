@@ -99,4 +99,7 @@ span {
   .profileDetails{
     flex-direction: column;
   }
+  .profileCard{
+    margin: 10px 20px;
+  }
 }

@@ -8,6 +8,7 @@ const Header = () => {
         <i className="fa fa-search"></i>
       </div>
       <div className="profile">
+        <i className="fa fa-search sm-search"></i>
         <i className="fa fa-bell"></i>
         <a href={pic1} target="blank">
           <img src={pic1} alt="" />
