@@ -94,6 +94,7 @@ h5 {
   opacity: 0.9;
   border-radius: 50px;
   z-index: 100;
+  padding: 5px 0;
 }
 .navbar i {
   padding: 12px 15px;
@@ -318,7 +319,7 @@ select {
     justify-content: space-around;
     opacity: 1;
   }
-  .navbar i{
+  .navbar i {
     margin: 0;
   }
   .container {
