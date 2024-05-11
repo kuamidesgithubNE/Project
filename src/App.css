@@ -94,7 +94,7 @@ h5 {
   opacity: 0.9;
   border-radius: 50px;
   z-index: 100;
-  padding: 7px 0;
+  padding: 5px 0;
 }
 .navbar i {
   padding: 12px 15px;
@@ -159,6 +159,7 @@ h5 {
 }
 .card-holder .card img {
   width: 100%;
+  height: 25vh;
   position: relative;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -321,6 +322,7 @@ select {
   }
   .navbar i {
     margin: 0;
+    padding: 5px 0;
   }
   .container {
     width: 100%;

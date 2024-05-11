@@ -1,6 +1,6 @@
 const Card = (props) => {
   console.log(props);
-  const usersDetails = props.users.map((user) => {
+  const usersDetails = props.jsonData.map((user) => {
     return (
       <div className="card">
         <img src={user.image} alt="" />
