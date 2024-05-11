@@ -1,25 +1,25 @@
 [
   {
     "id": "1",
-    "image": "/src/images/tracking.jpg",
+    "image": "/images/tracking.jpg",
     "title": "Car tracking",
     "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
   },
   {
     "id": "2",
-    "image": "/src/images/waste-robot.jpg",
+    "image": "/images/waste-robot.jpg",
     "title": "Waste Robot",
     "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
   },
   {
     "id": "3",
-    "image": "/src/images/poultry.jpg",
+    "image": "/images/poultry.jpg",
     "title": "Advance poultry",
     "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
   },
   {
     "id": "4",
-    "image": "/src/images/locator.jpg",
+    "image": "/images/locator.jpg",
     "title": "Locator",
     "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
   }
