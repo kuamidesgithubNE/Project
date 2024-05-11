@@ -316,6 +316,7 @@ select {
     border-top-right-radius: 10px;
     display: flex;
     justify-content: space-between;
+    opacity: 1;
   }
   .container {
     width: 100%;
