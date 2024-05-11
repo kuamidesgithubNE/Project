@@ -315,8 +315,11 @@ select {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     opacity: 1;
+  }
+  .navbar i{
+    margin: 0;
   }
   .container {
     width: 100%;
