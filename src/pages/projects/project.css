@@ -1,5 +1,8 @@
+.most-recent-view {
+    padding: 40px;
+  }
 .grid-container {
   display: grid;
-  grid-template-columns: auto; /* Three columns with equal width */
-  gap: 20px; /* Gap between grid items */
+  grid-template-columns: auto auto auto auto; /* Three columns with equal width */
+  gap: 30px; /* Gap between grid items */
 }

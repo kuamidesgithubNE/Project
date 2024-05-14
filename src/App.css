@@ -149,6 +149,7 @@ h5 {
   flex-basis: 23%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px;
   border-radius: 3px;
+  margin-bottom: 20px;
 }
 .card-holder .card h3 {
   font-size: 20px;

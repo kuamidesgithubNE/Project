@@ -22,8 +22,10 @@ const ProjectContent = () => {
   return (
     <div className="container">
       <h1>Projects</h1>
-      <div className="grid-container">
-        <Card jsonData={jsonData} />
+      <div className="most-recent-view">
+        <div className="card-holder">
+          <Card jsonData={jsonData} />
+        </div>
       </div>
     </div>
   );

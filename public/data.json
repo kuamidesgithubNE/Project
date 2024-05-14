@@ -22,5 +22,29 @@
     "image": "/images/locator.jpg",
     "title": "Locator",
     "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
+  },
+  {
+    "id": "5",
+    "image": "/images/Smart-farm.jpg",
+    "title": "Smart Farm",
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
+  },
+  {
+    "id": "6",
+    "image": "/images/smart-home.jpg",
+    "title": "Smart Home",
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
+  },
+  {
+    "id": "7",
+    "image": "/images/VR&AR.jpg",
+    "title": "Virtual Reality (VR)",
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
+  },
+  {
+    "id": "8",
+    "image": "/images/E-learning.png",
+    "title": "E-Learning Platform",
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
   }
 ]
