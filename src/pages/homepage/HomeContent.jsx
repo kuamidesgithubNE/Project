@@ -25,7 +25,7 @@ const Content = () => {
           <a href="">View all</a>
         </div>
         <div className="card-holder">
-          <Card jsonData={jsonData} />
+          <Card jsonData={jsonData.slice(0, 4)} />
         </div>
       </div>
 
@@ -35,7 +35,7 @@ const Content = () => {
           <a href="">View all</a>
         </div>
         <div className="card-holder">
-          <Card jsonData={jsonData} />
+          <Card jsonData={jsonData.slice(0, 4)} />
         </div>
       </div>
     </div>
