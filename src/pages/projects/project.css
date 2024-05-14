@@ -1,0 +1,5 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto; /* Three columns with equal width */
+  gap: 20px; /* Gap between grid items */
+}

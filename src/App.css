@@ -140,9 +140,9 @@ h5 {
 
 /* CardHolder & Card Css */
 .card-holder {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
   margin-top: 30px;
 }
 .card-holder .card {
@@ -328,7 +328,7 @@ select {
     width: 100%;
   }
   .card-holder {
-    flex-direction: column;
+    grid-template-columns: auto;
     gap: 30px;
   }
   .card {
