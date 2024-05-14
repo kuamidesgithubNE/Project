@@ -79,7 +79,7 @@ span {
   color: rgba(10, 88, 189, 5);
 }
 .info .info-card {
-  flex-basis: 30%;
+  flex-basis: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;

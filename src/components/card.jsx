@@ -7,7 +7,7 @@ const Card = (props) => {
         <div className="card-details">
           <h3>{user.title}</h3>
           <p>{user.info}</p>
-          <p style={{ color: "grey" }}>12th May, 2024</p>
+          <p style={{ color: "grey" }}>{user.date}</p>
           <div className="card-footer">
             <div
               className="card-icons"
@@ -19,10 +19,10 @@ const Card = (props) => {
               }}
             >
               <span>
-                <i className="fa fa-thumbs-up"></i> 300
+                <i className="fa fa-thumbs-up"></i> {user.like}
               </span>
               <span>
-                <i className="fa fa-eye"></i> 500
+                <i className="fa fa-eye"></i> {user.view}
               </span>
             </div>
             <button>Read More</button>

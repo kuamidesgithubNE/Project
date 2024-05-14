@@ -3,48 +3,72 @@
     "id": "1",
     "image": "/images/tracking.jpg",
     "title": "Car tracking",
-    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?",
+    "date": "24/02/2017",
+    "like": 58,
+    "view": 75
   },
   {
     "id": "2",
     "image": "/images/waste-robot.jpg",
     "title": "Waste Robot",
-    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?",
+    "date": "16/06/2019",
+    "like": 120,
+    "view": 128
   },
   {
     "id": "3",
     "image": "/images/poultry.jpg",
     "title": "Advance poultry",
-    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?",
+    "date": "07/08/2021",
+    "like": 20,
+    "view": 49
   },
   {
     "id": "4",
     "image": "/images/locator.jpg",
     "title": "Locator",
-    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?",
+    "date": "17/04/2023",
+    "like": 200,
+    "view": 350
   },
   {
     "id": "5",
     "image": "/images/Smart-farm.jpg",
     "title": "Smart Farm",
-    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?",
+    "date": "25/10/2014",
+    "like": 100,
+    "view": 300
   },
   {
     "id": "6",
     "image": "/images/smart-home.jpg",
     "title": "Smart Home",
-    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?",
+    "date": "17/05/2017",
+    "like": 126,
+    "view": 210
   },
   {
     "id": "7",
     "image": "/images/VR&AR.jpg",
     "title": "Virtual Reality (VR)",
-    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?",
+    "date": "19/08/2015",
+    "like": 90,
+    "view": 200
   },
   {
     "id": "8",
     "image": "/images/E-learning.png",
     "title": "E-Learning Platform",
-    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?"
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, error libero possimus reiciendis inventore vero?",
+    "date": "08/10/2020",
+    "like": 20,
+    "view": 150
   }
 ]
