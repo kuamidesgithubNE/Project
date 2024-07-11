@@ -2,6 +2,8 @@
 import React, { useState, useContext } from "react";
 import AuthContext from "./authContext";
 import { useNavigate } from "react-router-dom";
+import "./auth.css";
+import pic1 from "../../assets/ProPic1.jpg";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -21,19 +23,23 @@ const Login = () => {
   };
 
   return (
-    <div>
-      <h2>Login</h2>
+    <div class="loginContainer">
+      <div className="loginImageContainer">
+        <img src={pic1} alt="Pic1" />
+      </div>
+      <div className="loginFormContainer">
       <form onSubmit={handleSubmit}>
-        <div>
-          <label>Username</label>
+        <h2>Login</h2>
+        <div className="inputContainer">
+          <label className="label">Username</label>
           <input
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
         </div>
-        <div>
-          <label>Password</label>
+        <div className="inputContainer">
+          <label className="label">Password</label>
           <input
             type="password"
             value={password}
@@ -41,8 +47,14 @@ const Login = () => {
           />
         </div>
         {error && <p>{error}</p>}
-        <button type="submit">Login</button>
+        <button type="submit" className="button">
+          Login
+        </button>
+        <button type="submit" className="button">
+          Sign up with Google
+        </button>
       </form>
+      </div>
     </div>
   );
 };
