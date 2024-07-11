@@ -8,7 +8,7 @@
   font-weight: 400;
 }
 body {
-  background-color: #e8e8e8;
+  background-color: #fff;
 }
 .page {
   width: 100%;
@@ -204,7 +204,7 @@ h5 {
   overflow: hidden;
 }
 .modal-content {
-  flex-basis: 42%;
+  flex-basis: 35%;
   background-color: #fff;
   align-items: center;
   justify-content: center;
