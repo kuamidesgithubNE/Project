@@ -33,15 +33,15 @@ form {
 input {
   padding: 10px 0px;
   width: 100%;
-  margin: 10px auto;
+  margin: auto;
   outline: none;
   border: none;
   border-bottom: 1px solid #333;
-  font-size: 15px;
+  font-size: 14px;
   border-radius: 3px;
 }
 .error {
-  background-color: lightred;
+  color: #ff2323;
 }
 .buttonLogin {
   padding: 10px;
@@ -66,12 +66,23 @@ input {
   align-items: center;
   gap: 10px;
   font-size: 12px;
-  width: 100%;
+  width: 95%;
   margin: 20px auto;
-  color: #999999
+  color: #999999;
 }
 .line {
   border-bottom: 0.5px solid #999999;
   height: 0.05px;
   width: 100%;
+}
+
+@media (max-width: 600px) {
+  .loginContainer {
+    margin: 0;
+    width: 100%;
+    flex-direction: column;
+  }
+  .form {
+    width: 90%;
+  }
 }

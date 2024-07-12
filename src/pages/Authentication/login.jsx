@@ -4,7 +4,7 @@ import AuthContext from "./authContext";
 import { useNavigate } from "react-router-dom";
 import "./auth.css";
 import pic1 from "../../assets/ProPic1.jpg";
-import google from "../../assets/google.png"
+import google from "../../assets/google.png";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -48,8 +48,12 @@ const Login = () => {
               placeholder="Password"
             />
           </div>
-      
-          <button type="submit" className="buttonLogin">
+
+          <button
+            type="submit"
+            className="buttonLogin"
+            style={{ marginTop: "30px" }}
+          >
             Login
           </button>
 
@@ -57,8 +61,16 @@ const Login = () => {
             <div className="line"></div> OR <div className="line"></div>
           </div>
 
-          <button type="submit" className="buttonLogin" style={{background: '#fff', color: "#000", border: '1px solid #333'}}>
-           <img src={google}/> Sign up with Google 
+          <button
+            type="submit"
+            className="buttonLogin"
+            style={{
+              background: "#fff",
+              color: "#000",
+              border: "1px solid #333",
+            }}
+          >
+            <img src={google} /> Sign up with Google
           </button>
         </form>
       </div>
