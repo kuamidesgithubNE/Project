@@ -4,6 +4,7 @@ import AuthContext from "./authContext";
 import { useNavigate } from "react-router-dom";
 import "./auth.css";
 import pic1 from "../../assets/ProPic1.jpg";
+import google from "../../assets/google.png"
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -28,32 +29,38 @@ const Login = () => {
         <img src={pic1} alt="Pic1" />
       </div>
       <div className="loginFormContainer">
-      <form onSubmit={handleSubmit}>
-        <h2>Login</h2>
-        <div className="inputContainer">
-          <label className="label">Username</label>
-          <input
-            type="text"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-          />
-        </div>
-        <div className="inputContainer">
-          <label className="label">Password</label>
-          <input
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-        </div>
-        {error && <p>{error}</p>}
-        <button type="submit" className="button">
-          Login
-        </button>
-        <button type="submit" className="button">
-          Sign up with Google
-        </button>
-      </form>
+        <form onSubmit={handleSubmit}>
+          <h2>Login</h2>
+          {error && <p className="error">{error}</p>}
+          <div className="inputContainer">
+            <input
+              type="text"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+              placeholder="Username"
+            />
+          </div>
+          <div className="inputContainer">
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              placeholder="Password"
+            />
+          </div>
+      
+          <button type="submit" className="buttonLogin">
+            Login
+          </button>
+
+          <div className="broker">
+            <div className="line"></div> OR <div className="line"></div>
+          </div>
+
+          <button type="submit" className="buttonLogin" style={{background: '#fff', color: "#000", border: '1px solid #333'}}>
+           <img src={google}/> Sign up with Google 
+          </button>
+        </form>
       </div>
     </div>
   );
