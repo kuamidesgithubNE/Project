@@ -25,6 +25,10 @@ body {
   justify-content: center;
   padding: 50px 0px;
 }
+.loginTitle {
+  width: 80%;
+  margin: 10px auto;
+}
 form {
   width: 70%;
   margin: auto;
