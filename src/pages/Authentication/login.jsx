@@ -30,8 +30,8 @@ const Login = () => {
       </div>
       <div className="loginFormContainer">
         <div className="loginTitle">
-          <h2>Login</h2>
-          <div className="">Hi! Welcome back</div>
+          {/* <h2>Login</h2> */}
+          <p>Hi! Welcome back</p>
         </div>
         <form onSubmit={handleSubmit}>
           {error && <p className="error">{error}</p>}
