@@ -29,8 +29,11 @@ const Login = () => {
         <img src={pic1} alt="Pic1" />
       </div>
       <div className="loginFormContainer">
-        <form onSubmit={handleSubmit}>
+        <div className="loginTitle">
           <h2>Login</h2>
+          <div className="">Hi! Welcome back</div>
+        </div>
+        <form onSubmit={handleSubmit}>
           {error && <p className="error">{error}</p>}
           <div className="inputContainer">
             <input
