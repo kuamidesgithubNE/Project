@@ -26,15 +26,15 @@ body {
   padding: 50px 0px;
 }
 .loginTitle {
-  width: 80%;
-  margin: 10px auto;
+  width: 70%;
+  margin: 5px auto;
 }
 form {
   width: 70%;
   margin: auto;
 }
 .inputContainer {
-  margin: 20px auto;
+  margin: 15px auto;
 }
 
 input {
@@ -84,6 +84,9 @@ input {
 }
 
 @media (max-width: 600px) {
+  .loginImageContainer {
+    flex-basis: 80%;
+  }
   .loginContainer {
     margin: 0;
     width: 100%;
@@ -94,5 +97,8 @@ input {
   }
   .inputContainer {
     margin: 30px 0px;
+  }
+  .loginTitle {
+    width: 80%;
   }
 }

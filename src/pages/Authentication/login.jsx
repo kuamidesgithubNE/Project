@@ -55,7 +55,7 @@ const Login = () => {
           <button
             type="submit"
             className="buttonLogin"
-            style={{ marginTop: "30px" }}
+            style={{ marginTop: "20px" }}
           >
             Login
           </button>
