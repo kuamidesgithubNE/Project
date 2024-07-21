@@ -198,9 +198,13 @@ h5 {
   background-color: rgba(0, 0, 0, 0.3);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px;
   z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   animation-name: openModal;
   animation-duration: 0.5s;
 }
+
 .modal-content {
   background-color: #fefefe;
   margin: 2% auto;
@@ -210,36 +214,42 @@ h5 {
   max-width: 450px;
   border-radius: 5px;
 }
+
 @keyframes openModal {
-  0% {
+  from {
     opacity: 0;
   }
-  100% {
+  to {
     opacity: 1;
   }
 }
+
 .modal-content .close {
   color: #aaa;
   float: right;
   font-size: 23px;
   font-weight: bold;
+  cursor: pointer;
 }
+
 .modal-content .form {
   width: 90%;
-  align-self: first baseline;
   margin: 30px auto;
   font-size: 16px;
 }
+
 .modal-content .form h3 {
   font-size: 22px;
   margin: 20px auto;
 }
+
 .file-upload-container {
   display: flex;
   align-items: center;
   width: 100%;
   margin: auto;
 }
+
 .custom-file-upload {
   background-color: #cce5ff;
   border: 2px dashed darkgrey;
@@ -251,22 +261,27 @@ h5 {
   font-size: 17px;
   display: block;
 }
+
 .custom-file-upload input[type="file"] {
   display: none;
 }
+
 .form input,
 textarea,
 select {
   outline-color: rgb(10, 88, 189);
 }
+
 .form input:focus,
 .form textarea:focus,
 .form select:focus {
   box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
 }
+
 .form div {
   margin: 15px 0px;
 }
+
 .form div label {
   display: block;
   margin: 5px 0px;
@@ -274,21 +289,22 @@ select {
   font-size: 15px;
   opacity: 0.9;
 }
-.form div input[type="text"] {
+
+.form div input[type="text"],
+.form div textarea,
+.form div select {
   width: 95%;
   padding: 9px 10px;
   border: 1px solid grey;
   border-radius: 3px;
+  font-size: 16px;
 }
-.form div textarea {
-  padding: 9px 10px;
-}
+
 .form div select {
-  padding: 9px 10px;
-  width: 50%;
+  width: 100%;
   font-weight: 500;
-  border-radius: 3px;
 }
+
 .form div button {
   padding: 8px 40px;
   margin-right: 10px;
@@ -296,6 +312,15 @@ select {
   border-radius: 3px;
   border: transparent;
   cursor: pointer;
+}
+
+.form div .button {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form div .button button {
+  margin-right: 10px;
 }
 
 /* For small size screen  */
@@ -334,12 +359,15 @@ select {
   .modal {
     flex-direction: column;
   }
+
   .modal-content {
-    width: 80%;
-  }
-  .modal-content form {
     width: 70%;
   }
+
+  .modal-content .form {
+    width: 90%;
+  }
+
   .form div textarea {
     padding: 9px 10px;
   }
