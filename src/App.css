@@ -361,7 +361,7 @@ select {
   }
 
   .modal-content {
-    width: 70%;
+    width: 80%;
   }
 
   .modal-content .form {
@@ -369,6 +369,6 @@ select {
   }
 
   .form div textarea {
-    padding: 9px 10px;
+    width: 90%;
   }
 }
