@@ -196,22 +196,19 @@ h5 {
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.3);
-  display: flex;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px;
   z-index: 100;
   animation-name: openModal;
   animation-duration: 0.5s;
 }
 .modal-content {
-  flex-basis: 35%;
-  background-color: #fff;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  margin: 30px auto;
-  display: flex;
+  background-color: #fefefe;
+  margin: 2% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
+  max-width: 450px;
   border-radius: 5px;
-  font-size: 18px;
 }
 @keyframes openModal {
   0% {
@@ -222,16 +219,15 @@ h5 {
   }
 }
 .modal-content .close {
-  position: absolute;
-  top: 3%;
-  right: 3%;
-  cursor: pointer;
+  color: #aaa;
+  float: right;
+  font-size: 23px;
   font-weight: bold;
 }
 .modal-content .form {
-  flex-basis: 75%;
+  width: 90%;
   align-self: first baseline;
-  margin: 30px;
+  margin: 30px auto;
   font-size: 16px;
 }
 .modal-content .form h3 {
