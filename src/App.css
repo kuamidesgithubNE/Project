@@ -208,7 +208,7 @@ h5 {
 .modal-content {
   background-color: #fefefe;
   margin: 2% auto;
-  padding: 20px;
+  padding: 10px;
   border: 1px solid #888;
   width: 70%;
   max-width: 450px;
@@ -233,7 +233,7 @@ h5 {
 }
 
 .modal-content .form {
-  width: 90%;
+  width: 95%;
   margin: 30px auto;
   font-size: 16px;
 }
@@ -242,14 +242,12 @@ h5 {
   font-size: 22px;
   margin: 20px auto;
 }
-
 .file-upload-container {
   display: flex;
   align-items: center;
   width: 100%;
   margin: auto;
 }
-
 .custom-file-upload {
   background-color: #cce5ff;
   border: 2px dashed darkgrey;
@@ -261,27 +259,22 @@ h5 {
   font-size: 17px;
   display: block;
 }
-
 .custom-file-upload input[type="file"] {
   display: none;
 }
-
 .form input,
 textarea,
 select {
   outline-color: rgb(10, 88, 189);
 }
-
 .form input:focus,
 .form textarea:focus,
 .form select:focus {
   box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
 }
-
 .form div {
   margin: 15px 0px;
 }
-
 .form div label {
   display: block;
   margin: 5px 0px;
@@ -293,11 +286,12 @@ select {
 .form div input[type="text"],
 .form div textarea,
 .form div select {
-  width: 95%;
+  width: 90%;
   padding: 9px 10px;
   border: 1px solid grey;
   border-radius: 3px;
   font-size: 16px;
+  margin: 0px auto;
 }
 
 .form div select {
@@ -306,17 +300,12 @@ select {
 }
 
 .form div button {
-  padding: 8px 40px;
+  padding: 8px 20px;
   margin-right: 10px;
   font-size: 17px;
   border-radius: 3px;
   border: transparent;
   cursor: pointer;
-}
-
-.form div .button {
-  display: flex;
-  justify-content: flex-start;
 }
 
 .form div .button button {
